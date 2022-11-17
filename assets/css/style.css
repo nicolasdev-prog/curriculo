@@ -13,13 +13,17 @@ body {
   color: #4e4e4e;
 }
 
-h1,
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: #1e1e1e;
+}
+
+h1{
+  color: #fff;
 }
 
 a {
@@ -99,12 +103,12 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #537e6f;
 }
 
 .overlay-mf {
   position: absolute;
-  top: 0;
+  top: 0%;
   left: 0px;
   padding: 0;
   height: 100%;
@@ -168,7 +172,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #285767;
   margin: 0 auto;
 }
 
@@ -186,7 +190,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #285767;
   width: 100px;
   bottom: -12px;
 }
@@ -227,12 +231,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #537e6f;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #537e6f;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -269,7 +273,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #285767;
   display: block;
 }
 
@@ -482,7 +486,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: #2f3341f1;
   padding: 12px 0;
 }
 
@@ -596,7 +600,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #4879a4;
 }
 
 .navbar .dropdown:hover>ul {
@@ -736,7 +740,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #4879a4;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -867,7 +871,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #285767;
 }
 
 /*--------------------------------------------------------------
@@ -884,7 +888,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #537e6f;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -1079,6 +1083,8 @@ a:hover {
 
 .testimonial-box .author-test img {
   margin: 0 auto;
+  width: 15%;
+  Height: 145px
 }
 
 .testimonial-box .author {
@@ -1214,7 +1220,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #285767;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1222,7 +1228,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: #285767;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1467,7 +1473,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #285767;
 }
 
 footer .copyright {
@@ -1481,3 +1487,4 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
