@@ -104,7 +104,7 @@ a:hover {
   background-position: center center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 100px) {
   .bg-image {
     background-attachment: scroll;
   }
@@ -157,7 +157,7 @@ a:hover {
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
 }
 
 /*--/ Title A /--*/
@@ -167,8 +167,9 @@ a:hover {
 }
 
 .title-b{
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  text-align: right;
+  font-size: 20px;
+ 
 }
 
 .title-a {
@@ -176,12 +177,14 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 3%;
+  text-align: center;
+
 }
 
 .subtitle-a {
-  text-decoration: none;
-  color: #4e4e4e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #000000;
 }
 
 .line-mf {
@@ -791,7 +794,7 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 3rem;
 }
@@ -930,10 +933,11 @@ a:hover {
 }
 
 .service-box .s-title {
-  font-size: 14px;
+  font-size: 30px;
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .service-box .s-description {
@@ -1534,7 +1538,7 @@ margin-left: 1%;
 
 
 .img-flui{
-  width: 50%;
+  width: 10%;
 }
 
 .title-b{
@@ -1565,7 +1569,7 @@ margin-left: 1%;
   content: '';
   position: absolute;
   display: block;
-  width: 4px;
+  width: 7px;
   background: #285767;
   top: 20px;
   bottom: 20px;
@@ -1584,8 +1588,8 @@ margin-left: 1%;
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1622,24 +1626,13 @@ margin-left: 1%;
   -moz-background-clip: padding;
   background-clip: padding-box; }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 9px 9px 9px 0;
-  border-color: transparent #2f3341c9 transparent transparent;
-  left: 0;
-  top: 10px;
-  margin-left: -9px; }
+
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
   margin-top: 15px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
@@ -1652,7 +1645,7 @@ margin-left: 1%;
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 20px; }
 
   .colorlib-narrow-content {
     padding: 0 2.5em; }
@@ -1738,4 +1731,76 @@ margin-left: 1%;
             
           }
 
+          .img{
+          width: 35;
+          }
          
+          .resume .resume-title {
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #050d18;
+          }
+          
+          .resume .resume-item {
+            padding: 0 0 20px 20px;
+            margin-top: -2px;
+            border-left: 2px solid #1f5297;
+            position: relative;
+          }
+          
+          .resume .resume-item h4 {
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            color: #050d18;
+            margin-bottom: 10px;
+          }
+          
+          .resume .resume-item h5 {
+            font-size: 16px;
+            background: #e4edf9;
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          
+          .resume .resume-item ul {
+            padding-left: 20px;
+          }
+          
+          .resume .resume-item ul li {
+            padding-bottom: 10px;
+          }
+          
+          .resume .resume-item:last-child {
+            padding-bottom: 0;
+          }
+          
+          .resume .resume-item::before {
+            content: "";
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-radius: 50px;
+            left: -9px;
+            top: 0;
+            background: #fff;
+            border: 2px solid #1f5297;
+          }
+          
+.maior{
+  font-size: 30px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.accordion-buttoncollapsed{
+  font-size: 30px;
+}
+
