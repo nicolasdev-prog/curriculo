@@ -150,14 +150,74 @@
     
 
     <!-- ======= Services Section ======= -->
+    
     <main id="main">
+      
     <section id="services" class="services-mf pt-0. route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="title-box text-center">
+            <div class="slideshow-container">
+            </style>
+          </head>
+          <body>
+          
+          <h2></h2>
+          <p></p>
+          
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/img/Imagencafé.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/img/Ti.jpeg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/img/Linguagem.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+          }
+          </script>
               <h3 class="title-a">
                 Serviços
+                
               </h3>
 
               <p 
@@ -319,10 +379,11 @@
                    </div>
 
                    <div class="timeline-label">
-                      <h2 class="title-a">office <span>2022</span></h2>
+                      <h2 class="title-a"><img src="assets/img/img office.jpg" class="imgoffice" alt=""><span></span></h2>
                       <p class="title-s">Sei utilizar todas as ferramentas do office, sei utilizar bem o powerpoint o word e um pouco de exel, de fato essas ferramentas são muito uteis e não podem ser dispensadas ainda mas no dia a dia na escola.</p>
                    </div>
                 </div>
+                
              </article>
 
 
@@ -332,7 +393,7 @@
                     <i class="bi bi-camera"></i>
                    </div>
                    <div class="timeline-label">
-                     <h2 class="title-a">Corel photo-Paint <span>2022</span></h2>
+                     <h2 class="title-a"><img src="assets/img/Photo-Paint.png" class="imgoffice" alt=""> <span></span></h2>
                       <p class="title-s">Já sei utilizar este aplicativo já a um tempo, até agora na escola não utilizamos ele mas ele e muito interessante, ele o o CorelDraw trabalha em conjunto.</p>
                    </div>
                 </div>
@@ -344,7 +405,7 @@
                     <i class="bi bi-pencil"></i>
                    </div>
                    <div class="timeline-label">
-                     <h2 class="title-a"> coreldraw  <span>2022</span></h2>
+                     <h2 class="title-a"> <img src="assets/img/Corel-Draw.png" class="imgoffice" alt="">  <span></span></h2>
                       <p class="title-s">Este é o aplicativo que eu mais gosto de utilizar. Utilizo ele para fazer logos banner cartazes e cartões de visita para Clientes. ele é exelente e muito pratico de fazer certas coisas</p>
                    </div>
                 </div>
@@ -356,7 +417,7 @@
                     <i class="bi bi-code"></i>
                    </div>
                    <div class="timeline-label">
-                     <h2 class="title-a">VisualStudio <span>2022</span></h2>
+                     <h2 class="title-a"><img src="assets/img/visualStudio.png" class="imgoffice" alt=""> <span></span></h2>
                       <p class="title-s">Este aplicativo é utizado para programar e atualmente utilizamos bastante dele para programar para a Web</p>
                    </div>
                 </div>
@@ -368,7 +429,7 @@
                     <i class="bi bi-pencil"></i>
                    </div>
                    <div class="timeline-label">
-                     <h2 class="title-a">canva <span>2022</span></h2>
+                     <h2 class="title-a"> <img src="assets/img/Canva.png" class="imgoffice" alt=""> <span></span></h2>
                       <p class="title-s"> O canva atua como o CorelDraw ele é muito bom por conta da facilidade de buscar imagens e objetos, nele é possivel utilizar bem a criatividade.</p>
                    </div>
                 </div>
